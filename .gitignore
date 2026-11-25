@@ -1,0 +1,12 @@
+bags/
+data/
+__pycache__/
+bags/
+build/
+install/
+log/
+build_docker/
+install_docker/
+bags/day6_cam_front/
+check_camera_*
+check_camera_*.png
