@@ -1,0 +1,25 @@
+{
+  "session": "template (the real file is written automatically by 01_registra.py in dati/<session>/)",
+  "ego_vehicle": "vehicle.tesla.model3",
+  "width": 960,
+  "height": 540,
+  "fov_deg": 90.0,
+  "cam_x_from_center": 1.5,
+  "cam_y_from_center": 0.0,
+  "cam_z": 1.5,
+  "cam_pitch_deg": -8.0,
+  "base_link_from_center": -1.4,
+  "lidar": {
+    "x_from_center": 0.0,
+    "z": 2.0,
+    "channels": 32,
+    "range_m": 50,
+    "upper_fov_deg": 10,
+    "lower_fov_deg": -30
+  },
+  "frames": {
+    "base_link": "origin on the ground under the centre of the REAR AXLE, x forward, y left, z up (aea_dedalus README)",
+    "carla_note": "CARLA uses x forward, y RIGHT, z up; camera/LiDAR values are relative to the CARLA vehicle centre"
+  },
+  "notes": "Template. base_link_from_center = -1.4 is an ESTIMATE; 01_registra.py measures the real rear axle and writes it in each session's camera_info.json."
+}
